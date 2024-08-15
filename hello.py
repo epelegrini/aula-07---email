@@ -23,7 +23,7 @@ class NameForm(FlaskForm):
     submit = SubmitField('Submit')
 
 def send_email(subject, body, recipients):
-    return requests.post(
+    response = requests.post(
         f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
         auth=("api", MAILGUN_API_KEY),
         data={"from": f"Flask App <mailgun@{MAILGUN_DOMAIN}>",
