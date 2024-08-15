@@ -14,8 +14,8 @@ bootstrap = Bootstrap(app)
 moment = Moment(app)
 
 # Configurações do Mailgun
-MAILGUN_DOMAIN = 'your_mailgun_domain'  # Substitua pelo seu domínio Mailgun
-MAILGUN_API_KEY = 'your_mailgun_api_key'  # Substitua pela sua chave da API Mailgun
+MAILGUN_DOMAIN = 'ep.mydomain.com'  
+MAILGUN_API_KEY = '7a1fcc047c22ef42d30f684b8bf6eaf3-911539ec-147c0757' 
 RECIPIENT_EMAILS = ['flaskaulasweb@zohomail.com', 'e.pelegrini@aluno.ifsp.edu.br']
 
 class NameForm(FlaskForm):
