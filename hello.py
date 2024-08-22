@@ -15,7 +15,7 @@ moment = Moment(app)
 
 # Configurações do Mailgun
 MAILGUN_DOMAIN = 'ep.mydomain.com'  
-MAILGUN_API_KEY = '7a1fcc047c22ef42d30f684b8bf6eaf3-911539ec-147c0757' 
+MAILGUN_API_KEY = '' 
 RECIPIENT_EMAILS = ['flaskaulasweb@zohomail.com', 'e.pelegrini@aluno.ifsp.edu.br']
 
 class NameForm(FlaskForm):
